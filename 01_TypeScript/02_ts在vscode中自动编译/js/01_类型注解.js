@@ -1,6 +1,6 @@
 // 类型注解是一种轻量级的为函数或变量添加约束的方式
-function greeter(person) {
+function greeter2(person) {
     return 'Hello' + '-' + person;
 }
-var user = 'Yee';
-console.log(greeter(user));
+var user2 = 'Yee';
+console.log(greeter2(user2));
