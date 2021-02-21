@@ -69,5 +69,16 @@
 
 	console.log("==============");
 
-	// 联合类型
+	// 联合类型 (Union Types) 表示取值可以为多种类型中的一种
+	// 需求1： 定义一个函数，得到一个数字或字符串值的字符串形式值
+	function getString(str: string | number): string {
+		return str.toString()
+	}
+	console.log("123")
+
+	// 需求2：定义一个函数得到一个数字或字符串的长度
+	function getLength(str: string | number): number {
+		return str.toString().length
+	}
+	console.log(getLength(1111111))
 })();
