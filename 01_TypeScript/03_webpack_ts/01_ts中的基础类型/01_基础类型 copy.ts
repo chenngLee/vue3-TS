@@ -83,7 +83,7 @@
 	// 类型断言的方式2：值 as 类型  
 	function getStr(str: number | string) {
 		if ((<string>str).length) {
-			return (<string>str).length;
+			return (str as string).length;
 		} else {
 			return str.toString().length;
 		}
