@@ -7,7 +7,8 @@
 // import './03_多态'
 // import './04_公共，私有与受保护的修饰符'
 // import './05_readonly 修饰符'
-import './06_存取器'
+// import './06_存取器'
+import './07_静态属性'
 
 
 document.write('Hello Webpack TS!')
